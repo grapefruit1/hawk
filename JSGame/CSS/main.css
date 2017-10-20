@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Header */
+header {
+	transition: 
+	transition-duration: 2s;
+	margin: auto;
+	width: 26em;
+	//height: 4em;
+	text-align: center;
+	background-color: rgba(128,0,0,0.1);
+	border-radius: 0 0 1em 1em;
+}
+
+/* Modals */
+#modals {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#modals > * {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+}
+
+#modals > * > * {
+	border-radius: 1em;
+	padding: 1em;
+	background: rgb(200,200,200);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: auto;
+}
+
+/* noJS */
